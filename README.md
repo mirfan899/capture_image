@@ -47,12 +47,6 @@ in your controller create the method
  then you can edit the middleware.
  
  
- 
-## Contributors
-
-Imran Latif
-  
-
 
 ## Contributing
 
