@@ -19,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-Just create the form_tag and pass the url as text field i.e.
+Just create the form_tag and pass the url as text_field i.e.
 
     <%=form_tag ( { controller: "home", action: "capture_image" } ) do%>
       <%= text_field_tag "url", nil %>
@@ -39,10 +39,8 @@ in your controller create the method
           redirect_to posts_path
           return
         end
-        
         redirect_to posts_path
     end
- 
  
  
  it uses the middleware at backend to capture image so if you want to handle the request according to your functionality
@@ -50,7 +48,7 @@ in your controller create the method
  
  
  
-## Contributors:
+## Contributors
 
 Imran Latif
   
