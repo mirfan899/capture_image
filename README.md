@@ -25,6 +25,12 @@ Just create the form_tag and pass the url as text_field i.e.
       <%= text_field_tag "url", nil %>
       <%= submit_tag :create%>
     <%end%>
+    
+
+Pass the url to Rack via action to create the image
+
+    req = Rack::Request.new(params[:url])
+
 
  
  it uses the middleware at backend to capture image so if you want to handle the request according to your functionality
