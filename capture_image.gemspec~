@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = CaptureImage::VERSION
   spec.authors       = ["muhammad-irfan-confiz"]
   spec.email         = ["muhammad.irfan@confiz.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{it uses phantomjs at backend to create an image of given url on middleware level }
+  spec.summary       = %q{it creates an image of given url using middleware}
   spec.homepage      = ""
   spec.license       = "MIT"
 
