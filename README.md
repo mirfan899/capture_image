@@ -22,8 +22,8 @@ Or install it yourself as:
 Just create the form_tag and pass the url as text field i.e.
 
     <%=form_tag ( { controller: "home", action: "capture_image" } ) do%>
-        <%= text_field_tag "url", nil %>
-        <%= submit_tag :create%>
+      <%= text_field_tag "url", nil %>
+      <%= submit_tag :create%>
     <%end%>
 
 
@@ -32,8 +32,8 @@ in your controller create the method
     def capture_image
         url = URI.parse(params[:url])
         if %w( http https ).include?(url.scheme)
-            req = Rack::Request.new(env)
-            req.params[:url] = url
+          req = Rack::Request.new(env)
+          req.params[:url] = url
         else
           flash[:alert]='invalid url'
           redirect_to posts_path
