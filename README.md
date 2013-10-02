@@ -50,8 +50,9 @@ in your controller create the method
  
  
  
- Contributors:
- Imran Latif
+## Contributors:
+
+Imran Latif
   
 
 
