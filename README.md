@@ -34,8 +34,7 @@ Pass the url to Rack via action to create the image
 
  
  it uses the middleware at backend to capture image so if you want to handle the request according to your functionality
- then you can edit the middleware.
- 
+ then you can edit the middleware. 
  
 
 ## Contributing
