@@ -6,8 +6,8 @@ require 'capture_image/version'
 Gem::Specification.new do |spec|
   spec.name          = "capture_image"
   spec.version       = CaptureImage::VERSION
-  spec.authors       = ["muhammad-irfan-confiz"]
-  spec.email         = ["muhammad.irfan@confiz.com"]
+  spec.authors       = ["muhammad irfan"]
+  spec.email         = ["muhammad_irfan899@yahoo.com"]
   spec.description   = %q{it uses phantomjs at backend to create an image of given url on middleware level }
   spec.summary       = %q{it creates an image of given url using middleware}
   spec.homepage      = ""
