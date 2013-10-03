@@ -26,8 +26,6 @@ https://github.com/muhammad-irfan-confiz
 
 ##Links
 
-home page
-
 
 
 ## Usage
@@ -41,7 +39,8 @@ Just create the form tag and pass the url as text field i.e.
 
 Pass the url to Rack to create the image i.e.
 
-    req = Rack::Request.new(params[:url])
+      req = Rack::Request.new(env)
+      req.params[:url] = url
 
 
 ## Contributing
