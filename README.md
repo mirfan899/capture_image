@@ -1,4 +1,4 @@
-# CaptureImage
+# CaptureImage https://badge.fury.io/rb/capture_image.png
 
 It's create the image of given url, uses Phantomjs at backend to create image
 http://phantomjs.org/
