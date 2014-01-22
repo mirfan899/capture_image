@@ -1,4 +1,4 @@
-# CaptureImage https://badge.fury.io/rb/capture_image.png
+# CaptureImage <a href="http://badge.fury.io/rb/capture_image"><img src="https://badge.fury.io/rb/capture_image@2x.png" alt="Gem Version" height="18"></a>
 
 It's create the image of given url, uses Phantomjs at backend to create image
 http://phantomjs.org/
